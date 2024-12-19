@@ -1,0 +1,25 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nav-bar-container a {
+  text-decoration: none;
+}
+a.active {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.container {
+  padding: 20px;
+  background-color: orange;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
